@@ -1,4 +1,4 @@
-# NAZIV PROIZVODA Arduino library
+# SHTC3 Arduino library
 
 [![Compile Sketches](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml)
