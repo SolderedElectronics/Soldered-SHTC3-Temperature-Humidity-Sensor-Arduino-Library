@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        SHTC3.cpp
- * @brief       Library for SHTC3 sensor with eastC/i2c comunication 
+ * @brief       Library for SHTC3 sensor with eastC/i2c comunication
  *
  *
  *
