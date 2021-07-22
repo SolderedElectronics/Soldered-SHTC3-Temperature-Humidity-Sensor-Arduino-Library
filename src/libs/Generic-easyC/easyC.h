@@ -1,11 +1,11 @@
 /**
  **************************************************
  *
- * @file        easyC.h
+ * @file        Generic-easyC-SOLDERED.h
  * @brief       Basic funtions for easyC libraries
  *
  *
- * @copyright GNU General Public License v3.0
+ *
  * @authors     @ soldered.com
  ***************************************************/
 
@@ -35,11 +35,11 @@ class EasyC
     int err;
 
     char address;
-    const char defaultAddress = 0x30;
+    const char defaultAddress = 0x70;
 
     int sendAddress(char regAddr);
     int readData(char a[], int n);
-    int sendData(const uint8_t *a, int n);
+    int sendData(char a[], int n);
     int readRegister(char regAddr, char a[], size_t n);
 };
 

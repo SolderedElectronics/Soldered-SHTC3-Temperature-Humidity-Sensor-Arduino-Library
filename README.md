@@ -1,13 +1,13 @@
 # NAZIV PROIZVODA Arduino library
 
-[![Compile Sketches](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
+[![Compile Sketches](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![SHTC3](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](https://www.solde.red/SKU)                                                            |
+| [SHTC3](https://www.solde.red/333032)                                                            |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
+SHTC3 sensor + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
@@ -19,7 +19,7 @@ You can find hardware design for this board in NAZIV PROIZVODA hardware reposito
 
 ### Documentation
 
-Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-SHTC3-Arduino-Library/).
 
 - Tutorial for using the NAZIV PROIZVODA board
 - Installing an Arduino library
