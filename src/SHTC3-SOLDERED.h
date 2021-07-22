@@ -2,7 +2,7 @@
  **************************************************
  *
  * @file        SHTC3.cpp
- * @brief       Library for SHTC3 sensor with eastC/i2c comunication 
+ * @brief       Library for SHTC3 sensor with eastC/i2c comunication
  *
  *
  *
@@ -40,7 +40,7 @@ class SHTC3 : public EasyC
     float readTemperature();
     float readHumidity();
     void softwareReset();
-    uint16_t SHTC3::readId();
+    uint16_t readId();
 
   protected:
     void initializeNative();
