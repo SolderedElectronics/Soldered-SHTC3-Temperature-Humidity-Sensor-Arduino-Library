@@ -7,7 +7,7 @@
 | :---------------------------------------------------------------------------------------------: |
 | [SHTC3](https://www.solde.red/333032)                                                            |
 
-SHTC3 sensor + LINK NA [easyC ecosystem](https://www.soldered.com/easyC). 
+SHTC3 sensor [easyC ecosystem](https://www.soldered.com/easyC). 
 
 ### Repository Contents
 - **/src** - source files for the library (.h & .cpp)
