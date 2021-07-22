@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['naziv_20proizvoda_20arduino_20library_55',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['shtc3_20arduino_20library_55',['SHTC3 Arduino library',['../index.html',1,'']]]
 ];
