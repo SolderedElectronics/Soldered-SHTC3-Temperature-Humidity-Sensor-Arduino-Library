@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['readdata_30',['readData',['../class_easy_c.html#a9a3d39be50b348768bc4b5dea3dae01a',1,'EasyC']]],
-  ['readregister_31',['readRegister',['../class_easy_c.html#a45bd6c915c1fa0998e273f69ee2d2376',1,'EasyC']]]
+  ['powerdown_37',['powerDown',['../class_s_h_t_c3.html#a6d429b82afc0ffd7ffba8a2e8b9f882a',1,'SHTC3']]]
 ];

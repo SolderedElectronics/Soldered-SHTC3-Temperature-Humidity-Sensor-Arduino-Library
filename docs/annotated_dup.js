@@ -6,5 +6,5 @@ var annotated_dup =
     [ "About Soldered", "index.html#autotoc_md4", null ],
     [ "Open-source license", "index.html#autotoc_md5", null ],
     [ "EasyC", "class_easy_c.html", "class_easy_c" ],
-    [ "Sensor", "class_sensor.html", "class_sensor" ]
+    [ "SHTC3", "class_s_h_t_c3.html", "class_s_h_t_c3" ]
 ];

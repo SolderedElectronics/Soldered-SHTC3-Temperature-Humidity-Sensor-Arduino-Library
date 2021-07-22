@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pin_40',['pin',['../class_sensor.html#a0efecf34431610766469857f25e113da',1,'Sensor']]]
+  ['pin_54',['pin',['../class_s_h_t_c3.html#a10a83a67631a5abf1ffe0ded8ef18b33',1,'SHTC3']]]
 ];
