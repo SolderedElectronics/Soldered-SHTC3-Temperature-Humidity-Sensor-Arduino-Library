@@ -40,7 +40,7 @@ class SHTC3 : public EasyC
     float readTemperature();
     float readHumidity();
     void softwareReset();
-    uint16_t SHTC3::readId();
+    uint16_t readId();
 
   protected:
     void initializeNative();
