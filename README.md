@@ -1,6 +1,6 @@
 # SHTC3 Arduino library
 
-[![Compile Sketches](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![SHTC3](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
