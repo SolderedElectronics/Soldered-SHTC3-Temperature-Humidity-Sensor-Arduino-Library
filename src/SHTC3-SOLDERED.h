@@ -9,8 +9,8 @@
  * @authors     @ soldered.com @Robert Peric
  ***************************************************/
 
-#ifndef _SHTC3_H
-#define _SHTC3_H
+#ifndef __SHTC3_SOLDERED__
+#define __SHTC3_SOLDERED__
 
 #include "Arduino.h"
 #include "libs/Generic-easyC/easyC.h"
