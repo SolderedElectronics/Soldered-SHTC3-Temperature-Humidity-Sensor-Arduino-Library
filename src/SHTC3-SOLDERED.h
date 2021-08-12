@@ -32,7 +32,7 @@
 #define HUM_FIRST_LM  0x401A
 
 
-class SHTC3 : public EasyC
+class SHTC3 : public SHTC3_SOLDERED_LIBS::EasyC
 {
   public:
     SHTC3();

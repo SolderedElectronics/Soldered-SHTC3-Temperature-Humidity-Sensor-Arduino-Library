@@ -11,6 +11,9 @@
 
 #include "easyC.h"
 
+namespace SHTC3_SOLDERED_LIBS
+{
+
 /**
  * @brief       Main constructor for easyC version
  *
@@ -109,7 +112,9 @@ int EasyC::readData(char a[], int n)
 int EasyC::sendData(char a[], int n)
 {
     Wire.beginTransmission(address);
-    Wire.write(a, n);
+    Wire.write((uint8_t *)a, n);
 
     return err = Wire.endTransmission();
 }
+
+} // namespace SHTC3_SOLDERED_LIBS

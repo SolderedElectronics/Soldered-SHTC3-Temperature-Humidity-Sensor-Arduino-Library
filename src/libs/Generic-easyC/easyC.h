@@ -18,6 +18,9 @@
 #define ANALOG_READ_REG  0
 #define DIGITAL_READ_REG 1
 
+namespace SHTC3_SOLDERED_LIBS
+{
+
 class EasyC
 {
   public:
@@ -35,12 +38,14 @@ class EasyC
     int err;
 
     char address;
-    const char defaultAddress = 0x70;
+    const char defaultAddress = 0x30;
 
     int sendAddress(char regAddr);
     int readData(char a[], int n);
     int sendData(char a[], int n);
     int readRegister(char regAddr, char a[], size_t n);
 };
+
+} // namespace SHTC3_SOLDERED_LIBS
 
 #endif
