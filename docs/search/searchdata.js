@@ -2,29 +2,32 @@ var indexSectionsWithContent =
 {
   0: "abdeinprsw",
   1: "es",
-  2: "ers",
-  3: "beiprsw",
-  4: "abdenp",
-  5: "s"
+  2: "s",
+  3: "ers",
+  4: "beiprsw",
+  5: "abdenp",
+  6: "s"
 };
 
 var indexSectionNames =
 {
   0: "all",
   1: "classes",
-  2: "files",
-  3: "functions",
-  4: "variables",
-  5: "pages"
+  2: "namespaces",
+  3: "files",
+  4: "functions",
+  5: "variables",
+  6: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "All",
   1: "Classes",
-  2: "Files",
-  3: "Functions",
-  4: "Variables",
-  5: "Pages"
+  2: "Namespaces",
+  3: "Files",
+  4: "Functions",
+  5: "Variables",
+  6: "Pages"
 };
 
