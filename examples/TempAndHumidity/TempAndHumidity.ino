@@ -16,22 +16,20 @@ SHTC3 shtcSensor;
 void setup()
 {
     shtcSensor.begin();
-    Serial.begin(9600);
+    Serial.begin(115200);
 }
 
 void loop()
 {
-    //For temperature use function readTemperature
-    Serial.print("Temp: ");
-    Serial.println(shtcSensor.readTemperature(), 2);
+    shtcSensor.sample();
 
-    //For geting humodity use function readHumidity
+    // For temperature use function readTempC
+    Serial.print("Temp: ");
+    Serial.println(shtcSensor.readTempC(), 2);
+
+    // For geting humodity use function readHumidity
     Serial.print("Hum: ");
     Serial.println(shtcSensor.readHumidity(), 2);
-
-    //If you are in need of knowing device ID use function readId 
-    Serial.print("ID: ");
-    Serial.println(shtcSensor.readId());
 
     delay(5000);
 }

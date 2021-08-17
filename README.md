@@ -1,4 +1,4 @@
-# SHTC3 Arduino library
+# SHTC3 Temperature and Humidity Sensor Arduino library
 
 [![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/compile_test.yml)
 [![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Arduino-Library/actions/workflows/make_docs.yml)
@@ -15,13 +15,13 @@ SHTC3 sensor [easyC ecosystem](https://www.soldered.com/easyC).
 - ***other*** - *keywords* file highlights function words in your IDE, *library.properties* enables implementation with Arduino Library Manager.
 
 ### Hardware design
-You can find hardware design for this board in NAZIV PROIZVODA hardware repository
+You can find hardware design for this board in SHTC3 Temperature and Humidity Sensor hardware repository
 
 ### Documentation
 
 Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-SHTC3-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the SHTC3 Temperature and Humidity Sensor board
 - Installing an Arduino library
 
 ### About Soldered
