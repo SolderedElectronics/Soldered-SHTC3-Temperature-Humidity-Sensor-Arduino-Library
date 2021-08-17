@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['address_51',['address',['../class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a999730d43e69619a8d32b9b286434a4a',1,'SHTC3_SOLDERED_LIBS::EasyC']]]
+  ['_5fh_47',['_h',['../class_s_h_t_c3.html#a100cbd6b4f4f4b5e2a60d5195be8f077',1,'SHTC3']]],
+  ['_5ft_48',['_t',['../class_s_h_t_c3.html#a653d85d1b8801d6a521ca90a77a43c71',1,'SHTC3']]],
+  ['_5fwire_49',['_wire',['../class_s_h_t_c3.html#a94a03713769c8dbfa8d66aaa93370d4c',1,'SHTC3']]]
 ];

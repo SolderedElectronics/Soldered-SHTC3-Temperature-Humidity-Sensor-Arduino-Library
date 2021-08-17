@@ -91,65 +91,8 @@ $(document).ready(function(){initNavTree('_s_h_t_c3-_s_o_l_d_e_r_e_d_8h_source.h
 </div><!--header-->
 <div class="contents">
 <a href="_s_h_t_c3-_s_o_l_d_e_r_e_d_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef __SHTC3_SOLDERED__</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define __SHTC3_SOLDERED__</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="easy_c_8h.html">libs/Generic-easyC/easyC.h</a>&quot;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#define SHTC3_ADDRESS 0x70</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define WAKEUP        0x3517</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#define SLEEP         0xB098</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#define RESET         0x805D</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#define READOUT_ID    0xEFC8</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#define TEMP_FIRST_NM_CS 0x7CA2</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#define HUM_FIRST_NM_CS  0x5C24</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#define TEMP_FIRST_LM_CS 0x6458</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define HUM_FIRST_LM_CS  0x44DE</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#define TEMP_FIRST_NM 0x7866</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#define HUM_FIRST_NM  0x58E0</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#define TEMP_FIRST_LM 0x609C</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#define HUM_FIRST_LM  0x401A</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_s_h_t_c3.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_s_h_t_c3.html">SHTC3</a> : <span class="keyword">public</span> <a class="code" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html">SHTC3_SOLDERED_LIBS::EasyC</a></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_s_h_t_c3.html#a67dfc9297537fc24a12b3a48ad56f208">SHTC3</a>();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_s_h_t_c3.html#a67dfc9297537fc24a12b3a48ad56f208">SHTC3</a>(<span class="keywordtype">int</span> _pin);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_s_h_t_c3.html#a889fa39b0a900eb00b09346de475d12e">readTemperature</a>();</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_s_h_t_c3.html#a52ba30ec918b3d21ab3375c53cbe4077">readHumidity</a>();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_s_h_t_c3.html#ac67d6502d9cf99da8f746b1274ba42b0">softwareReset</a>();</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    uint16_t <a class="code" href="class_s_h_t_c3.html#a33a2bfad76ba7010401cdf34544088bf">readId</a>();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keyword">protected</span>:</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_s_h_t_c3.html#af0d20cf74e78f7dc9e6c6abf81ae0b7d">initializeNative</a>();</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_s_h_t_c3.html#a10a83a67631a5abf1ffe0ded8ef18b33">   49</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_s_h_t_c3.html#a10a83a67631a5abf1ffe0ded8ef18b33">pin</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_s_h_t_c3.html#a010ffdedaed13a54e182b5e5b208ee38">wakeUp</a>();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_s_h_t_c3.html#a1782f50cf1253e11c85ac4b8112c7064">sendCommand</a>(uint16_t command);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_s_h_t_c3.html#ae46404b2f383710752ee94c5f1ff8edd">readData</a>(uint8_t data[], <span class="keywordtype">int</span> n);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_s_h_t_c3.html#a6d429b82afc0ffd7ffba8a2e8b9f882a">powerDown</a>();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c_html"><div class="ttname"><a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html">SHTC3_SOLDERED_LIBS::EasyC</a></div><div class="ttdef"><b>Definition:</b> easyC.h:25</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html"><div class="ttname"><a href="class_s_h_t_c3.html">SHTC3</a></div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.h:36</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a010ffdedaed13a54e182b5e5b208ee38"><div class="ttname"><a href="class_s_h_t_c3.html#a010ffdedaed13a54e182b5e5b208ee38">SHTC3::wakeUp</a></div><div class="ttdeci">void wakeUp()</div><div class="ttdoc">wakeUp sends I2C command to start measurements</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:77</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a10a83a67631a5abf1ffe0ded8ef18b33"><div class="ttname"><a href="class_s_h_t_c3.html#a10a83a67631a5abf1ffe0ded8ef18b33">SHTC3::pin</a></div><div class="ttdeci">int pin</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.h:49</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a1782f50cf1253e11c85ac4b8112c7064"><div class="ttname"><a href="class_s_h_t_c3.html#a1782f50cf1253e11c85ac4b8112c7064">SHTC3::sendCommand</a></div><div class="ttdeci">void sendCommand(uint16_t command)</div><div class="ttdoc">sendMeasurementCommand is used after wakeUp to tell sensor to start measurement, consult datasheet fo...</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:92</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a33a2bfad76ba7010401cdf34544088bf"><div class="ttname"><a href="class_s_h_t_c3.html#a33a2bfad76ba7010401cdf34544088bf">SHTC3::readId</a></div><div class="ttdeci">uint16_t readId()</div><div class="ttdoc">readId requests device ID number</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:136</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a52ba30ec918b3d21ab3375c53cbe4077"><div class="ttname"><a href="class_s_h_t_c3.html#a52ba30ec918b3d21ab3375c53cbe4077">SHTC3::readHumidity</a></div><div class="ttdeci">float readHumidity()</div><div class="ttdoc">readHumidity returns current enviroment humidity</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:55</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a67dfc9297537fc24a12b3a48ad56f208"><div class="ttname"><a href="class_s_h_t_c3.html#a67dfc9297537fc24a12b3a48ad56f208">SHTC3::SHTC3</a></div><div class="ttdeci">SHTC3()</div><div class="ttdoc">Constructor for SHTC3 sensor.</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:30</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a6d429b82afc0ffd7ffba8a2e8b9f882a"><div class="ttname"><a href="class_s_h_t_c3.html#a6d429b82afc0ffd7ffba8a2e8b9f882a">SHTC3::powerDown</a></div><div class="ttdeci">void powerDown()</div><div class="ttdoc">powerDown puts sensor in sleep mode</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:114</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_a889fa39b0a900eb00b09346de475d12e"><div class="ttname"><a href="class_s_h_t_c3.html#a889fa39b0a900eb00b09346de475d12e">SHTC3::readTemperature</a></div><div class="ttdeci">float readTemperature()</div><div class="ttdoc">readTemperature returns current enviroment temperature</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:39</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_ac67d6502d9cf99da8f746b1274ba42b0"><div class="ttname"><a href="class_s_h_t_c3.html#ac67d6502d9cf99da8f746b1274ba42b0">SHTC3::softwareReset</a></div><div class="ttdeci">void softwareReset()</div><div class="ttdoc">softwareReset resets sensor to its default state</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:125</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_ae46404b2f383710752ee94c5f1ff8edd"><div class="ttname"><a href="class_s_h_t_c3.html#ae46404b2f383710752ee94c5f1ff8edd">SHTC3::readData</a></div><div class="ttdeci">void readData(uint8_t data[], int n)</div><div class="ttdoc">readData reads 6 bytes from sensor (temp and hum)</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:105</div></div>
-<div class="ttc" id="aclass_s_h_t_c3_html_af0d20cf74e78f7dc9e6c6abf81ae0b7d"><div class="ttname"><a href="class_s_h_t_c3.html#af0d20cf74e78f7dc9e6c6abf81ae0b7d">SHTC3::initializeNative</a></div><div class="ttdeci">void initializeNative()</div><div class="ttdoc">Overloaded function for virtual in base class to initialize sensor specific.</div><div class="ttdef"><b>Definition:</b> SHTC3-SOLDERED.cpp:69</div></div>
-<div class="ttc" id="aeasy_c_8h_html"><div class="ttname"><a href="easy_c_8h.html">easyC.h</a></div></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_s_h_t_c3_8h.html">libs/SHTC3/SHTC3.h</a>&quot;</span></div>
+<div class="ttc" id="a_s_h_t_c3_8h_html"><div class="ttname"><a href="_s_h_t_c3_8h.html">SHTC3.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -158,7 +101,7 @@ $(document).ready(function(){initNavTree('_s_h_t_c3-_s_o_l_d_e_r_e_d_8h_source.h
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_s_h_t_c3-_s_o_l_d_e_r_e_d_8h.html">SHTC3-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Thu Aug 12 2021 10:02:41 for SHTC3-Soldered Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Aug 17 2021 11:13:13 for SHTC3-Soldered Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

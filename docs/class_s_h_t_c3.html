@@ -88,7 +88,6 @@ $(document).ready(function(){initNavTree('class_s_h_t_c3.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_s_h_t_c3-members.html">List of all members</a>  </div>
@@ -97,143 +96,99 @@ $(document).ready(function(){initNavTree('class_s_h_t_c3.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="_s_h_t_c3-_s_o_l_d_e_r_e_d_8h_source.html">SHTC3-SOLDERED.h</a>&gt;</code></p>
-
-<p>Inherits <a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html">SHTC3_SOLDERED_LIBS::EasyC</a>.</p>
+<p><code>#include &lt;<a class="el" href="_s_h_t_c3_8h_source.html">SHTC3.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67dfc9297537fc24a12b3a48ad56f208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a67dfc9297537fc24a12b3a48ad56f208">SHTC3</a> ()</td></tr>
-<tr class="memdesc:a67dfc9297537fc24a12b3a48ad56f208"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for <a class="el" href="class_s_h_t_c3.html">SHTC3</a> sensor.  <a href="class_s_h_t_c3.html#a67dfc9297537fc24a12b3a48ad56f208">More...</a><br /></td></tr>
-<tr class="separator:a67dfc9297537fc24a12b3a48ad56f208"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5285a2e3668a96388c32e22e56ea387"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#af5285a2e3668a96388c32e22e56ea387">SHTC3</a> (int _pin)</td></tr>
-<tr class="memdesc:af5285a2e3668a96388c32e22e56ea387"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor specific native constructor.  <a href="class_s_h_t_c3.html#af5285a2e3668a96388c32e22e56ea387">More...</a><br /></td></tr>
-<tr class="separator:af5285a2e3668a96388c32e22e56ea387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a889fa39b0a900eb00b09346de475d12e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a889fa39b0a900eb00b09346de475d12e">readTemperature</a> ()</td></tr>
-<tr class="memdesc:a889fa39b0a900eb00b09346de475d12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">readTemperature returns current enviroment temperature  <a href="class_s_h_t_c3.html#a889fa39b0a900eb00b09346de475d12e">More...</a><br /></td></tr>
-<tr class="separator:a889fa39b0a900eb00b09346de475d12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52ba30ec918b3d21ab3375c53cbe4077"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a52ba30ec918b3d21ab3375c53cbe4077">readHumidity</a> ()</td></tr>
-<tr class="memdesc:a52ba30ec918b3d21ab3375c53cbe4077"><td class="mdescLeft">&#160;</td><td class="mdescRight">readHumidity returns current enviroment humidity  <a href="class_s_h_t_c3.html#a52ba30ec918b3d21ab3375c53cbe4077">More...</a><br /></td></tr>
+<tr class="memitem:a944e22c903405acb3900f6b718763524"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a944e22c903405acb3900f6b718763524">SHTC3</a> (<a class="el" href="_s_h_t_c3_8h.html#a9affb9bd56fc74f9117488777e90072f">arduino_shtc3_wire_t</a> &amp;w=Wire)</td></tr>
+<tr class="separator:a944e22c903405acb3900f6b718763524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c8bca3920707c4135c9c140f335556"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a38c8bca3920707c4135c9c140f335556">begin</a> (bool do_sample=false)</td></tr>
+<tr class="separator:a38c8bca3920707c4135c9c140f335556"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a730bb572dc4b4a89cf0328b2ce964440"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a730bb572dc4b4a89cf0328b2ce964440">sample</a> (uint16_t readcmd=<a class="el" href="_s_h_t_c3_8h.html#a3b04b443c9433212804a4bf7fb626144a859fd6f046dbff303b17a41348a44c2d">SHTC3_READ_LP</a>, uint8_t pause=0)</td></tr>
+<tr class="separator:a730bb572dc4b4a89cf0328b2ce964440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afefd496bbb26bf6b72028f443c536e21"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#afefd496bbb26bf6b72028f443c536e21">readTempC</a> ()</td></tr>
+<tr class="separator:afefd496bbb26bf6b72028f443c536e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ba30ec918b3d21ab3375c53cbe4077"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a52ba30ec918b3d21ab3375c53cbe4077">readHumidity</a> ()</td></tr>
 <tr class="separator:a52ba30ec918b3d21ab3375c53cbe4077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac67d6502d9cf99da8f746b1274ba42b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#ac67d6502d9cf99da8f746b1274ba42b0">softwareReset</a> ()</td></tr>
-<tr class="memdesc:ac67d6502d9cf99da8f746b1274ba42b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">softwareReset resets sensor to its default state  <a href="class_s_h_t_c3.html#ac67d6502d9cf99da8f746b1274ba42b0">More...</a><br /></td></tr>
-<tr class="separator:ac67d6502d9cf99da8f746b1274ba42b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a2bfad76ba7010401cdf34544088bf"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a33a2bfad76ba7010401cdf34544088bf">readId</a> ()</td></tr>
-<tr class="memdesc:a33a2bfad76ba7010401cdf34544088bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">readId requests device ID number  <a href="class_s_h_t_c3.html#a33a2bfad76ba7010401cdf34544088bf">More...</a><br /></td></tr>
-<tr class="separator:a33a2bfad76ba7010401cdf34544088bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html">SHTC3_SOLDERED_LIBS::EasyC</a></td></tr>
-<tr class="memitem:a5e65d64864d4f6773a3f2aab4c99d753 inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a5e65d64864d4f6773a3f2aab4c99d753">EasyC</a> ()</td></tr>
-<tr class="memdesc:a5e65d64864d4f6773a3f2aab4c99d753 inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main constructor for easyC version.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a5e65d64864d4f6773a3f2aab4c99d753">More...</a><br /></td></tr>
-<tr class="separator:a5e65d64864d4f6773a3f2aab4c99d753 inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3b55d892ba2825a680f945025e710bd inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#af3b55d892ba2825a680f945025e710bd">begin</a> ()</td></tr>
-<tr class="memdesc:af3b55d892ba2825a680f945025e710bd inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes sensors on native or easyC on default address.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#af3b55d892ba2825a680f945025e710bd">More...</a><br /></td></tr>
-<tr class="separator:af3b55d892ba2825a680f945025e710bd inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afedc0edba6430430333a365902ecad50 inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#afedc0edba6430430333a365902ecad50">begin</a> (uint8_t _address)</td></tr>
-<tr class="memdesc:afedc0edba6430430333a365902ecad50 inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes sensors on supplied i2c address.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#afedc0edba6430430333a365902ecad50">More...</a><br /></td></tr>
-<tr class="separator:afedc0edba6430430333a365902ecad50 inherit pub_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:af0d20cf74e78f7dc9e6c6abf81ae0b7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#af0d20cf74e78f7dc9e6c6abf81ae0b7d">initializeNative</a> ()</td></tr>
-<tr class="memdesc:af0d20cf74e78f7dc9e6c6abf81ae0b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Overloaded function for virtual in base class to initialize sensor specific.  <a href="class_s_h_t_c3.html#af0d20cf74e78f7dc9e6c6abf81ae0b7d">More...</a><br /></td></tr>
-<tr class="separator:af0d20cf74e78f7dc9e6c6abf81ae0b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html">SHTC3_SOLDERED_LIBS::EasyC</a></td></tr>
-<tr class="memitem:a18f51a3bedb6f6dd96f1b061d6e4dfc1 inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a18f51a3bedb6f6dd96f1b061d6e4dfc1">sendAddress</a> (char regAddr)</td></tr>
-<tr class="memdesc:a18f51a3bedb6f6dd96f1b061d6e4dfc1 inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send a single byte to sensor.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a18f51a3bedb6f6dd96f1b061d6e4dfc1">More...</a><br /></td></tr>
-<tr class="separator:a18f51a3bedb6f6dd96f1b061d6e4dfc1 inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39aff83718bd62280eb9b8a8d9c2c1eb inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a39aff83718bd62280eb9b8a8d9c2c1eb">readData</a> (char a[], int n)</td></tr>
-<tr class="memdesc:a39aff83718bd62280eb9b8a8d9c2c1eb inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to read n bytes over i2c.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a39aff83718bd62280eb9b8a8d9c2c1eb">More...</a><br /></td></tr>
-<tr class="separator:a39aff83718bd62280eb9b8a8d9c2c1eb inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397b1dd7733d61b832c75ab69fc31275 inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a397b1dd7733d61b832c75ab69fc31275">sendData</a> (char a[], int n)</td></tr>
-<tr class="memdesc:a397b1dd7733d61b832c75ab69fc31275 inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to write n bytes over i2c.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a397b1dd7733d61b832c75ab69fc31275">More...</a><br /></td></tr>
-<tr class="separator:a397b1dd7733d61b832c75ab69fc31275 inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8df68038172b59b41e7b671eba31efe inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aa8df68038172b59b41e7b671eba31efe">readRegister</a> (char regAddr, char a[], size_t n)</td></tr>
-<tr class="memdesc:aa8df68038172b59b41e7b671eba31efe inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Private function to send over i2c and then read n bytes.  <a href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aa8df68038172b59b41e7b671eba31efe">More...</a><br /></td></tr>
-<tr class="separator:aa8df68038172b59b41e7b671eba31efe inherit pro_methods_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afefd496bbb26bf6b72028f443c536e21"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#afefd496bbb26bf6b72028f443c536e21">readTempC</a> ()</td></tr>
+<tr class="separator:afefd496bbb26bf6b72028f443c536e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ba30ec918b3d21ab3375c53cbe4077"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a52ba30ec918b3d21ab3375c53cbe4077">readHumidity</a> ()</td></tr>
+<tr class="separator:a52ba30ec918b3d21ab3375c53cbe4077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc67b2a96e4c612d8160a812ba5f32eb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#afc67b2a96e4c612d8160a812ba5f32eb">sleep</a> ()</td></tr>
+<tr class="separator:afc67b2a96e4c612d8160a812ba5f32eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01f95272a986ee4515107150ff70a35c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a01f95272a986ee4515107150ff70a35c">wakeup</a> ()</td></tr>
+<tr class="separator:a01f95272a986ee4515107150ff70a35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93907336663e1a6a53cdd2012f90f01a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a93907336663e1a6a53cdd2012f90f01a">reset</a> ()</td></tr>
+<tr class="separator:a93907336663e1a6a53cdd2012f90f01a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eaa0a9b266fee7e4667aaff071fd7b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a7eaa0a9b266fee7e4667aaff071fd7b6">twiCommand</a> (uint16_t cmd, uint8_t stop=true)</td></tr>
+<tr class="separator:a7eaa0a9b266fee7e4667aaff071fd7b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8f8328e8e6050755f017ec4c2272dd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#af8f8328e8e6050755f017ec4c2272dd4">twiTransfer</a> (uint16_t cmd, uint8_t *data, uint8_t len, uint8_t pause=0)</td></tr>
+<tr class="separator:af8f8328e8e6050755f017ec4c2272dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a010ffdedaed13a54e182b5e5b208ee38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a010ffdedaed13a54e182b5e5b208ee38">wakeUp</a> ()</td></tr>
-<tr class="memdesc:a010ffdedaed13a54e182b5e5b208ee38"><td class="mdescLeft">&#160;</td><td class="mdescRight">wakeUp sends I2C command to start measurements  <a href="class_s_h_t_c3.html#a010ffdedaed13a54e182b5e5b208ee38">More...</a><br /></td></tr>
-<tr class="separator:a010ffdedaed13a54e182b5e5b208ee38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1782f50cf1253e11c85ac4b8112c7064"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a1782f50cf1253e11c85ac4b8112c7064">sendCommand</a> (uint16_t command)</td></tr>
-<tr class="memdesc:a1782f50cf1253e11c85ac4b8112c7064"><td class="mdescLeft">&#160;</td><td class="mdescRight">sendMeasurementCommand is used after wakeUp to tell sensor to start measurement, consult datasheet for different meassurement patterns  <a href="class_s_h_t_c3.html#a1782f50cf1253e11c85ac4b8112c7064">More...</a><br /></td></tr>
-<tr class="separator:a1782f50cf1253e11c85ac4b8112c7064"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae46404b2f383710752ee94c5f1ff8edd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#ae46404b2f383710752ee94c5f1ff8edd">readData</a> (uint8_t data[], int n)</td></tr>
-<tr class="memdesc:ae46404b2f383710752ee94c5f1ff8edd"><td class="mdescLeft">&#160;</td><td class="mdescRight">readData reads 6 bytes from sensor (temp and hum)  <a href="class_s_h_t_c3.html#ae46404b2f383710752ee94c5f1ff8edd">More...</a><br /></td></tr>
-<tr class="separator:ae46404b2f383710752ee94c5f1ff8edd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d429b82afc0ffd7ffba8a2e8b9f882a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a6d429b82afc0ffd7ffba8a2e8b9f882a">powerDown</a> ()</td></tr>
-<tr class="memdesc:a6d429b82afc0ffd7ffba8a2e8b9f882a"><td class="mdescLeft">&#160;</td><td class="mdescRight">powerDown puts sensor in sleep mode  <a href="class_s_h_t_c3.html#a6d429b82afc0ffd7ffba8a2e8b9f882a">More...</a><br /></td></tr>
-<tr class="separator:a6d429b82afc0ffd7ffba8a2e8b9f882a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51cc07d8c0058dd3039dbd0a24f11df4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a51cc07d8c0058dd3039dbd0a24f11df4">checkCRC</a> (const uint8_t *data)</td></tr>
+<tr class="separator:a51cc07d8c0058dd3039dbd0a24f11df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae665cd8fcb92b732e5fbcc01b6e77d5e"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#ae665cd8fcb92b732e5fbcc01b6e77d5e">crc8</a> (const uint8_t *data, uint8_t len)</td></tr>
+<tr class="separator:ae665cd8fcb92b732e5fbcc01b6e77d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a10a83a67631a5abf1ffe0ded8ef18b33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a10a83a67631a5abf1ffe0ded8ef18b33">pin</a></td></tr>
-<tr class="separator:a10a83a67631a5abf1ffe0ded8ef18b33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html">SHTC3_SOLDERED_LIBS::EasyC</a></td></tr>
-<tr class="memitem:a357f54f1bbdaa9ac66219855e13cf86c inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a357f54f1bbdaa9ac66219855e13cf86c">native</a> = 0</td></tr>
-<tr class="separator:a357f54f1bbdaa9ac66219855e13cf86c inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f872f106d31a90c08672b15c64da81 inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a91f872f106d31a90c08672b15c64da81">beginDone</a> = 0</td></tr>
-<tr class="separator:a91f872f106d31a90c08672b15c64da81 inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ebdd49c88ed1a6cb27cd2d0c48a3e1 inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a37ebdd49c88ed1a6cb27cd2d0c48a3e1">err</a></td></tr>
-<tr class="separator:a37ebdd49c88ed1a6cb27cd2d0c48a3e1 inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a999730d43e69619a8d32b9b286434a4a inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a999730d43e69619a8d32b9b286434a4a">address</a></td></tr>
-<tr class="separator:a999730d43e69619a8d32b9b286434a4a inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad623ed701bc3ddc9329f8d410da391cf inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ad623ed701bc3ddc9329f8d410da391cf">defaultAddress</a> = 0x30</td></tr>
-<tr class="separator:ad623ed701bc3ddc9329f8d410da391cf inherit pro_attribs_class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94a03713769c8dbfa8d66aaa93370d4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_s_h_t_c3_8h.html#a9affb9bd56fc74f9117488777e90072f">arduino_shtc3_wire_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a94a03713769c8dbfa8d66aaa93370d4c">_wire</a></td></tr>
+<tr class="separator:a94a03713769c8dbfa8d66aaa93370d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653d85d1b8801d6a521ca90a77a43c71"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a653d85d1b8801d6a521ca90a77a43c71">_t</a></td></tr>
+<tr class="separator:a653d85d1b8801d6a521ca90a77a43c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a100cbd6b4f4f4b5e2a60d5195be8f077"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_h_t_c3.html#a100cbd6b4f4f4b5e2a60d5195be8f077">_h</a></td></tr>
+<tr class="separator:a100cbd6b4f4f4b5e2a60d5195be8f077"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a67dfc9297537fc24a12b3a48ad56f208"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67dfc9297537fc24a12b3a48ad56f208">&#9670;&nbsp;</a></span>SHTC3() <span class="overload">[1/2]</span></h2>
+<a id="a944e22c903405acb3900f6b718763524"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a944e22c903405acb3900f6b718763524">&#9670;&nbsp;</a></span>SHTC3()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">SHTC3::SHTC3 </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="_s_h_t_c3_8h.html#a9affb9bd56fc74f9117488777e90072f">arduino_shtc3_wire_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>w</em> = <code>Wire</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
-<p>Constructor for <a class="el" href="class_s_h_t_c3.html">SHTC3</a> sensor. </p>
-
-</div>
-</div>
-<a id="af5285a2e3668a96388c32e22e56ea387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5285a2e3668a96388c32e22e56ea387">&#9670;&nbsp;</a></span>SHTC3() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SHTC3::SHTC3 </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>_pin</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sensor specific native constructor. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">int</td><td>_pin Example parameter. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af0d20cf74e78f7dc9e6c6abf81ae0b7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d20cf74e78f7dc9e6c6abf81ae0b7d">&#9670;&nbsp;</a></span>initializeNative()</h2>
+<a id="a38c8bca3920707c4135c9c140f335556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c8bca3920707c4135c9c140f335556">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SHTC3::begin </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>do_sample</em> = <code>false</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a51cc07d8c0058dd3039dbd0a24f11df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51cc07d8c0058dd3039dbd0a24f11df4">&#9670;&nbsp;</a></span>checkCRC()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,27 +197,24 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SHTC3::initializeNative </td>
+          <td class="memname">bool SHTC3::checkCRC </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Overloaded function for virtual in base class to initialize sensor specific. </p>
-
-<p>Implements <a class="el" href="class_s_h_t_c3___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a53ebbe208c256031f29bede16d6ba120">SHTC3_SOLDERED_LIBS::EasyC</a>.</p>
-
 </div>
 </div>
-<a id="a6d429b82afc0ffd7ffba8a2e8b9f882a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d429b82afc0ffd7ffba8a2e8b9f882a">&#9670;&nbsp;</a></span>powerDown()</h2>
+<a id="ae665cd8fcb92b732e5fbcc01b6e77d5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae665cd8fcb92b732e5fbcc01b6e77d5e">&#9670;&nbsp;</a></span>crc8()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -271,43 +223,16 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SHTC3::powerDown </td>
+          <td class="memname">uint8_t SHTC3::crc8 </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>powerDown puts sensor in sleep mode </p>
-
-</div>
-</div>
-<a id="ae46404b2f383710752ee94c5f1ff8edd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae46404b2f383710752ee94c5f1ff8edd">&#9670;&nbsp;</a></span>readData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SHTC3::readData </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>data</em>[], </td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -322,18 +247,10 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>readData reads 6 bytes from sensor (temp and hum) </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">uint8_t</td><td>data[] is used to store data from sensor </td></tr>
-  </table>
-  </dd>
-</dl>
-
 </div>
 </div>
 <a id="a52ba30ec918b3d21ab3375c53cbe4077"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52ba30ec918b3d21ab3375c53cbe4077">&#9670;&nbsp;</a></span>readHumidity()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ba30ec918b3d21ab3375c53cbe4077">&#9670;&nbsp;</a></span>readHumidity() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,19 +264,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>readHumidity returns current enviroment humidity </p>
-<dl class="section return"><dt>Returns</dt><dd>float enviroment humidity </dd></dl>
-
 </div>
 </div>
-<a id="a33a2bfad76ba7010401cdf34544088bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33a2bfad76ba7010401cdf34544088bf">&#9670;&nbsp;</a></span>readId()</h2>
+<a id="a52ba30ec918b3d21ab3375c53cbe4077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ba30ec918b3d21ab3375c53cbe4077">&#9670;&nbsp;</a></span>readHumidity() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint16_t SHTC3::readId </td>
+          <td class="memname">float SHTC3::readHumidity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -367,19 +281,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>readId requests device ID number </p>
-<dl class="section return"><dt>Returns</dt><dd>uint16_t device ID number </dd></dl>
-
 </div>
 </div>
-<a id="a889fa39b0a900eb00b09346de475d12e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a889fa39b0a900eb00b09346de475d12e">&#9670;&nbsp;</a></span>readTemperature()</h2>
+<a id="afefd496bbb26bf6b72028f443c536e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afefd496bbb26bf6b72028f443c536e21">&#9670;&nbsp;</a></span>readTempC() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float SHTC3::readTemperature </td>
+          <td class="memname">float SHTC3::readTempC </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -387,13 +298,27 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>readTemperature returns current enviroment temperature </p>
-<dl class="section return"><dt>Returns</dt><dd>float enviroment temperature </dd></dl>
+</div>
+</div>
+<a id="afefd496bbb26bf6b72028f443c536e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afefd496bbb26bf6b72028f443c536e21">&#9670;&nbsp;</a></span>readTempC() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SHTC3::readTempC </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1782f50cf1253e11c85ac4b8112c7064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1782f50cf1253e11c85ac4b8112c7064">&#9670;&nbsp;</a></span>sendCommand()</h2>
+<a id="a93907336663e1a6a53cdd2012f90f01a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93907336663e1a6a53cdd2012f90f01a">&#9670;&nbsp;</a></span>reset()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -402,51 +327,51 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SHTC3::sendCommand </td>
+          <td class="memname">bool SHTC3::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a730bb572dc4b4a89cf0328b2ce964440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a730bb572dc4b4a89cf0328b2ce964440">&#9670;&nbsp;</a></span>sample()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SHTC3::sample </td>
           <td>(</td>
           <td class="paramtype">uint16_t&#160;</td>
-          <td class="paramname"><em>command</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>readcmd</em> = <code><a class="el" href="_s_h_t_c3_8h.html#a3b04b443c9433212804a4bf7fb626144a859fd6f046dbff303b17a41348a44c2d">SHTC3_READ_LP</a></code>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>sendMeasurementCommand is used after wakeUp to tell sensor to start measurement, consult datasheet for different meassurement patterns </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">uint16_t</td><td>measurement command from SHTC.c list of defines </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ac67d6502d9cf99da8f746b1274ba42b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac67d6502d9cf99da8f746b1274ba42b0">&#9670;&nbsp;</a></span>softwareReset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">void SHTC3::softwareReset </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pause</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>softwareReset resets sensor to its default state </p>
-
 </div>
 </div>
-<a id="a010ffdedaed13a54e182b5e5b208ee38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a010ffdedaed13a54e182b5e5b208ee38">&#9670;&nbsp;</a></span>wakeUp()</h2>
+<a id="afc67b2a96e4c612d8160a812ba5f32eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc67b2a96e4c612d8160a812ba5f32eb">&#9670;&nbsp;</a></span>sleep()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,7 +380,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SHTC3::wakeUp </td>
+          <td class="memname">bool SHTC3::sleep </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -463,18 +388,109 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>wakeUp sends I2C command to start measurements </p>
+</div>
+</div>
+<a id="a7eaa0a9b266fee7e4667aaff071fd7b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eaa0a9b266fee7e4667aaff071fd7b6">&#9670;&nbsp;</a></span>twiCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SHTC3::twiCommand </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>stop</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af8f8328e8e6050755f017ec4c2272dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8f8328e8e6050755f017ec4c2272dd4">&#9670;&nbsp;</a></span>twiTransfer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SHTC3::twiTransfer </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>cmd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>pause</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01f95272a986ee4515107150ff70a35c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f95272a986ee4515107150ff70a35c">&#9670;&nbsp;</a></span>wakeup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SHTC3::wakeup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a10a83a67631a5abf1ffe0ded8ef18b33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10a83a67631a5abf1ffe0ded8ef18b33">&#9670;&nbsp;</a></span>pin</h2>
+<a id="a100cbd6b4f4f4b5e2a60d5195be8f077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a100cbd6b4f4f4b5e2a60d5195be8f077">&#9670;&nbsp;</a></span>_h</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -483,7 +499,51 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int SHTC3::pin</td>
+          <td class="memname">uint16_t SHTC3::_h</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a653d85d1b8801d6a521ca90a77a43c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a653d85d1b8801d6a521ca90a77a43c71">&#9670;&nbsp;</a></span>_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SHTC3::_t</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a94a03713769c8dbfa8d66aaa93370d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94a03713769c8dbfa8d66aaa93370d4c">&#9670;&nbsp;</a></span>_wire</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_s_h_t_c3_8h.html#a9affb9bd56fc74f9117488777e90072f">arduino_shtc3_wire_t</a>&amp; SHTC3::_wire</td>
         </tr>
       </table>
   </td>
@@ -496,8 +556,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_s_h_t_c3-_s_o_l_d_e_r_e_d_8h_source.html">SHTC3-SOLDERED.h</a></li>
-<li><a class="el" href="_s_h_t_c3-_s_o_l_d_e_r_e_d_8cpp.html">SHTC3-SOLDERED.cpp</a></li>
+<li><a class="el" href="_s_h_t_c3_8h_source.html">SHTC3.h</a></li>
+<li><a class="el" href="_s_h_t_c3_8cpp.html">SHTC3.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -507,7 +567,7 @@ Additional Inherited Members</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_s_h_t_c3.html">SHTC3</a></li>
         <li class="footer">
-            Generated on Thu Aug 12 2021 10:02:41 for SHTC3-Soldered Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Tue Aug 17 2021 11:13:13 for SHTC3-Soldered Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.1.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
