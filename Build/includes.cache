@@ -1,0 +1,42 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/nitkonitkic/Library/Arduino15/packages/Dasduino_Boards/hardware/esp8266/1.0.0/cores/esp8266"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/nitkonitkic/Library/Arduino15/packages/Dasduino_Boards/hardware/esp8266/1.0.0/variants/generic"
+  },
+  {
+    "Sourcefile": "/Users/nitkonitkic/Documents/Arduino/libraries/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/Build/sketch/TempAndHumidity.ino.cpp",
+    "Include": "SHTC3-SOLDERED.h",
+    "Includepath": "/Users/nitkonitkic/Documents/Arduino/libraries/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/src"
+  },
+  {
+    "Sourcefile": "/Users/nitkonitkic/Documents/Arduino/libraries/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/Build/sketch/TempAndHumidity.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "/Users/nitkonitkic/Library/Arduino15/packages/Dasduino_Boards/hardware/esp8266/1.0.0/libraries/Wire"
+  },
+  {
+    "Sourcefile": "/Users/nitkonitkic/Documents/Arduino/libraries/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/Build/sketch/TempAndHumidity.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/nitkonitkic/Documents/Arduino/libraries/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/src/SHTC3-SOLDERED.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/nitkonitkic/Documents/Arduino/libraries/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/src/libs/SHTC3/SHTC3.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/nitkonitkic/Library/Arduino15/packages/Dasduino_Boards/hardware/esp8266/1.0.0/libraries/Wire/Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
