@@ -76,7 +76,7 @@ bool SHTC3::twiTransfer(uint16_t cmd, uint8_t *data, uint8_t len, uint8_t pause)
 
 bool SHTC3::begin(bool do_sample)
 {
-
+    Wire.begin();  // added by me
     uint8_t id[3]; // ID + CRC
     bool r = false;
     delayMicroseconds(SHTC3_RESET_DELAY_US);
