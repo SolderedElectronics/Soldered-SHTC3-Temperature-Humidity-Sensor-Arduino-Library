@@ -15,21 +15,21 @@ SHTC3 shtcSensor;
 
 void setup()
 {
-    shtcSensor.begin();
-    Serial.begin(115200);
+    shtcSensor.begin(); //Initialize sensor
+    Serial.begin(115200); //Start serial communication with PC using 115200 baudrate
 }
 
 void loop()
 {
-    shtcSensor.sample();
+    shtcSensor.sample(); //Initialize sensor
 
     // For temperature use function readTempC
     Serial.print("Temp: ");
-    Serial.println(shtcSensor.readTempC(), 2);
+    Serial.println(shtcSensor.readTempC(), 2); //Get temperature and print
 
-    // For geting humodity use function readHumidity
+    // For geting humidity use function readHumidity
     Serial.print("Hum: ");
-    Serial.println(shtcSensor.readHumidity(), 2);
+    Serial.println(shtcSensor.readHumidity(), 2); //Get humidity and print
 
     delay(5000);
 }
