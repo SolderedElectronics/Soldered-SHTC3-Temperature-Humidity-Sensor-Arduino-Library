@@ -25,7 +25,9 @@
 var NAVTREE =
 [
   [ "SHTC3-Soldered Library", "index.html", [
-    [ "SHTC3 Temperature and Humidity Sensor Arduino library", "index.html", null ],
+    [ "Temperature and humidity sensor SHTC3 breakout Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

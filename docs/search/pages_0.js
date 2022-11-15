@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['shtc3_20temperature_20and_20humidity_20sensor_20arduino_20library_0',['SHTC3 Temperature and Humidity Sensor Arduino library',['../index.html',1,'']]]
+  ['temperature_20and_20humidity_20sensor_20shtc3_20breakout_20arduino_20library_0',['Temperature and humidity sensor SHTC3 breakout Arduino library',['../index.html',1,'']]]
 ];
