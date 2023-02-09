@@ -1,6 +1,6 @@
 # Temperature and humidity sensor SHTC3 breakout Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/actions/workflows/make_docs.yml)
 
 | ![Temperature and humidity sensor SHTC3 breakout](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
@@ -31,16 +31,16 @@ You can find hardware design for this board in [*Temperature and humidity sensor
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the Temperature & humidity sensor SHTC3 breakout board
 - Installing an Arduino library
 
 ### Board compatibility
 
 The library is compatible with board & microcontroller families shown in green below: 
 
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-SHTC3-Temperature-Humidity-Sensor-Arduino-Library/actions/workflows/compile_test.yml)
 
 
 ### About Soldered
